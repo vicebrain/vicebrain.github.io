@@ -13,13 +13,14 @@ header {
   border-bottom: 1px solid seashell;
 }
 
-header .nav {
+header li {
   display: inline;
   text-decoration: none;
 }
 
-.nav a {
+.nav li a {
   text-decoration: underline;
+  color: seashell;
 }
 
 .banner {

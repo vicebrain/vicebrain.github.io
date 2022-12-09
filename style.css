@@ -9,8 +9,12 @@ body {
 
 header {
   display: flex;
+  justify-content: space-between;
   height: 69px;
   border-bottom: 1px solid seashell;
+}
+header .middle{
+  min-width: 20px;
 }
 
 header li {

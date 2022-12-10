@@ -35,6 +35,29 @@ header li {
 
 .banner {
   background:url("/media/img-mission-background.jpg");
-  max-width: 1200px;
-  max-height: 700px;
+  height: 700px;
+  align-items: center;
+}
+
+.mission {
+  width: 1200px;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featured {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.featured-item img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+  justify-content: center;
 }
